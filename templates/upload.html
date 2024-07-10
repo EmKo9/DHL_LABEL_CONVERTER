@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Label</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Upload DHL Label</h1>
+
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file">Choose a file to upload:</label>
+    <input type="file" id="file" name="file" accept=".pdf,.png,.jpg" required>
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>
