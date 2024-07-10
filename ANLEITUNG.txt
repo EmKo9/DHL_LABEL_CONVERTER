@@ -1,3 +1,3 @@
 Nach dem starten einfach im Browser folgendes eingeben: http://localhost:5000/
 
-Dieses Programm wurde dazu entwickelt DHL Label (direkt die PDF aus der Online-Frankierung) auf den DYMO Labelwriter 5 XL anzupassen, weil das sonst viel Arbeit ist. Die am Ende heruntergeladene PDF muss jedoch trotzdem noch einmal in DYMO Connect eingefügt werden damit die Größe stimmt. Eventuell folgt dazu bald ein YouTube Video.
+Dieses Programm wurde dazu entwickelt DHL Label (direkt die PDF aus der Online-Frankierung) auf den DYMO Labelwriter 5 XL anzupassen, weil das sonst viel Arbeit ist. Die am Ende heruntergeladene PDF muss jedoch trotzdem noch einmal in DYMO Connect eingefügt werden damit die Größe stimmt. Eventuell folgt dazu bald ein YouTube Video. ES MUSS BEI PYTHON PIP mit installiert werden
